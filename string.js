@@ -1,4 +1,4 @@
-const products = [
+/*const products = [
    'dell laptop',
    'lenovo lapto with camera',
    'Asus laptop',
@@ -98,4 +98,71 @@ const friendsName = ['abul','babul', 'dabul','mabul','chabol','nobul'];
 const selectedFriends = friendsName.sort();
 console.log(selectedFriends);
 const reverseFriends = friendsName.reverse();
-console.log(reverseFriends);
+console.log(reverseFriends);*/
+// const numbers = [4,1,9,3,7,8,2,6,5];
+// const sortedNumbers = numbers.sort();
+// console.log(sortedNumbers);
+// const friendsName = ['kawali','kutub','butub','autub','lutub','mutub'];
+// const sortedFriendsName = friendsName.sort();
+// console.log(sortedFriendsName);
+// const reverseFriendsName = friendsName.reverse();
+// console.log(reverseFriendsName);
+// const sortedReverseFriendsName = friendsName.sort().reverse();
+// console.log(sortedReverseFriendsName);
+// const bigNumbers = [54, 66, 77, 90, 12, 45,56,1, 100,2];
+// const sortedBigNumbers = bigNumbers.sort(function(a,b){
+//  return a-b;
+// })
+
+// console.log(sortedBigNumbers);
+
+// const numArray = [89, 54, 66, 77, 90, 12, 45,56,1, 100,2];
+// numArray.sort(function(a,b){
+//    return a-b;
+// })
+
+// console.log(numArray);
+
+// const numArray = [89, 54, 66, 77, 90, 12, 45,56,1, 100,2];
+// numArray.sort(function(a,b){
+//    return a-b;
+// })
+
+// console.log(numArray);
+
+// const numArray = [89, 54, 66, 77, 90, 12, 45,56,1, 100,2];
+// numArray.sort(function(a,b){
+//    return a-b;
+// })
+
+// console.log(numArray);
+
+// let numbers = [5, 13, 1, 44, 32, 15, 500];
+// let lowestToHighest = numbers.sort((a, b) => a - b);
+// console.log(lowestToHighest);
+// let highestToLowest = numbers.sort((a, b) => b-a);
+// console.log(highestToLowest);
+// function addNumbers(num1,num2){
+//    // console.log(arguments[3]);
+//    let result = 0;
+//    for(const num of arguments){
+//      result = result + num;
+//    }
+//    // const result = num1 + num2;
+//    return result;
+// }
+
+// const sum = addNumbers(23,17,56,100);
+// console.log(sum);
+
+function getFullName(firstName,lastName){
+   // const fullName = firstName + ' ' + lastName;
+   let fullName = '';
+   for(const part of arguments){
+      fullName = fullName + ' ' + part + '';
+   }
+   return fullName;
+}
+
+const name = getFullName( 'Abdul','Jabber', 'bin', 'Muhammad', 'Enamul','Haque');
+console.log(name);
